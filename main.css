@@ -21,10 +21,12 @@ p {
 }
 
 
-video{
+iframe{
 	margin-left: 30%;
 	margin-top: 3%;
 }
+
+
 
 .s1 {
 	background: url(img/sjapoohoedjebg.jpg);
@@ -89,7 +91,7 @@ video{
 
 	background-size: cover;
 	max-width: 100%;
-	height: 67vh;
+	height: auto;
 
 }
 
@@ -155,17 +157,7 @@ video{
 	z-index: 99999;
 }
 
-#status {
-	background-image: url("img/animatie.gif");
-	width: 801px;
-	height: 801px;
-	margin-left: -400px;
-	margin-top: -400px;
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	transform: scale(0.2);
-}
+
 
 .text-center {
 	margin: 0 auto;
@@ -206,7 +198,11 @@ video{
 		flex: 50%;
 	}
 
-	video{
+	.product {
+		flex: 50%;
+	}
+
+	iframe{
 		width: 80%;
 		margin-left: 7%;
 	}
@@ -214,8 +210,12 @@ video{
 
 @media only screen and (max-width: 680px){
 	.row .column {
-		flex: 100%;
+		flex: 10%;
 	}
+	.product {
+		flex: 10%;
+	}
+
 	
 }
 
