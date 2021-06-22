@@ -249,7 +249,8 @@ font-family: 'Montserrat', sans-serif;
     padding-bottom: 10px;
     border: 1px solid #ced4da;
     border-radius: 0.25rem;
-    max-width: 100%;
+    max-width: 50%;
+	margin-left: 25%;
 }
 
 .fcf-form-group {
